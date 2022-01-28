@@ -1,0 +1,193 @@
+/* Electricidad-Manzanelli */
+*{
+    margin: none;
+    padding: none;
+    
+    text-decoration: none;
+}
+
+
+/* Variables */
+$colorEM: 
+(rgb(255, 190, 11)
+
+);
+
+/* mixin */
+@mixin medida {
+    height: 550px;
+    width: 10px;
+}
+
+/* Inicio */
+.inicioBody {
+    background-color: $colorEM;
+}
+
+
+
+#novedadesCompras {
+   @include medida();
+    background-image: url(../img/novedades.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+/* bootstrap */
+
+.slide {
+    margin-top: 50px;
+}
+
+.slide img {
+    height:  90vh;
+}
+
+
+.novedadesTitulo {
+    color: $colorEM;   
+}
+
+.clientes {
+    background-image: url(../img/nuestrosclientes.jpeg);
+    height: 60vh
+}
+
+.clientes {
+    background-repeat: no-repeat;
+    background-color: $colorEM;
+    background-position: center;
+}
+
+
+
+#publicacionEpec .publicacionTitulo {
+    color: $colorEM;
+    padding: 40px;
+    margin: 10px;
+}
+
+
+#footer {
+    color: white;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Titulo Cliente */
+
+.tituloCliente {
+   padding: 130px
+   
+}
+
+.tituloCliTabla {
+    font-family: fantasy;
+}
+
+.tablaCliente {
+    font-family: fantasy;
+    background-color: $colorEM;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/logoreal.jpeg);
+    
+    
+    
+}
+
+/* Compras */
+
+#comprasTodo h2 {
+    margin: 45px 20px;
+    color: $colorEM;
+}
+#comprasTodo h3 {
+    margin: 25px 20px;
+    color: $colorEM;
+}
+#comprasTodo .imagenesCompras {
+    margin: 45px 25px;
+}
+#comprasTodo h4 {
+    margin: 45px 10px;
+    color: $colorEM;
+}
+
+/* Novedades */
+
+.wifi {
+    background-image: url(../img/interruptorWifi.PNG);
+    height: 60vh
+    
+
+}
+
+.wifi {
+    
+    background-repeat: no-repeat;
+    background-color: $colorEM;
+    background-position: center;
+}
+.distan {
+    background-image: url(../img/distanciador.PNG);
+    height: 60vh
+}
+
+.distan {
+    margin: 90px;
+    background-repeat: no-repeat;
+    background-color: $colorEM;
+    background-position: center;
+}
+
+
+/* boot novedades */
+
+.slide2 {
+    margin-top: 80px;
+    
+    
+}
+
+.slide2 img {
+    height: 60vh
+}
+
+
+
+
+
+
+/* Proveedores */
+
+#prove .completo {
+    background-color: $colorEM;
+    width: 1535px;
+    height: 535px;
+}
+#prove .completo h2 {
+    background-color: $colorEM;
+    color: white;
+    margin: 0 20px;
+}
+
+#prove .completo h3 {
+    color: white;
+    margin: 40px 660px;
+}
+#prove .completo .mapa {
+    margin: 40px 350px;
+}

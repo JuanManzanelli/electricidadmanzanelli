@@ -1,0 +1,178 @@
+/* Electricidad-Manzanelli */
+* {
+  margin: none;
+  padding: none;
+  text-decoration: none;
+}
+
+/* Variables */
+/* mixin */
+/* Inicio */
+.inicioBody {
+  background-color: #ffbe0b;
+}
+
+#novedadesCompras {
+  height: 550px;
+  width: 10px;
+  background-image: url(../img/novedades.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* bootstrap */
+.slide {
+  margin-top: 50px;
+}
+
+.slide img {
+  height: 90vh;
+}
+
+.novedadesTitulo {
+  color: #ffbe0b;
+}
+
+.clientes {
+  background-image: url(../img/nuestrosclientes.jpeg);
+  height: 60vh;
+}
+
+.clientes {
+  background-repeat: no-repeat;
+  background-color: #ffbe0b;
+  background-position: center;
+}
+
+#publicacionEpec .publicacionTitulo {
+  color: #ffbe0b;
+  padding: 40px;
+  margin: 10px;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+/* Titulo Cliente */
+.tituloCliente {
+  padding: 130px;
+}
+
+.tituloCliTabla {
+  font-family: fantasy;
+}
+
+.tablaCliente {
+  font-family: fantasy;
+  background-color: #ffbe0b;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./img/logoreal.jpeg);
+}
+
+/* Compras */
+#comprasTodo h2 {
+  margin: 45px 20px;
+  color: #ffbe0b;
+}
+
+#comprasTodo h3 {
+  margin: 25px 20px;
+  color: #ffbe0b;
+}
+
+#comprasTodo .imagenesCompras {
+  margin: 45px 25px;
+}
+
+#comprasTodo h4 {
+  margin: 45px 10px;
+  color: #ffbe0b;
+}
+
+/* Novedades */
+.wifi {
+  background-image: url(../img/interruptorWifi.PNG);
+  height: 60vh;
+}
+
+.wifi {
+  background-repeat: no-repeat;
+  background-color: #ffbe0b;
+  background-position: center;
+}
+
+.distan {
+  background-image: url(../img/distanciador.PNG);
+  height: 60vh;
+}
+
+.distan {
+  margin: 90px;
+  background-repeat: no-repeat;
+  background-color: #ffbe0b;
+  background-position: center;
+}
+
+/* boot novedades */
+.slide2 {
+  margin-top: 80px;
+}
+
+.slide2 img {
+  height: 60vh;
+}
+
+/* Proveedores */
+#prove .completo {
+  background-color: #ffbe0b;
+  width: 1535px;
+  height: 535px;
+}
+
+#prove .completo h2 {
+  background-color: #ffbe0b;
+  color: white;
+  margin: 0 20px;
+}
+
+#prove .completo h3 {
+  color: white;
+  margin: 40px 660px;
+}
+
+#prove .completo .mapa {
+  margin: 40px 350px;
+}
+/*# sourceMappingURL=style.css.map */
